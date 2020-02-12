@@ -20,7 +20,7 @@ echo $i"["$bi"•"$i"]"$me"─────────────────�
 echo $i"|"$me" 1"$i" |"$cy" AUTO REPORT TO FACEBOOK   "$i"|"$i"    |"$cy" A"$i" |"
 echo $i"|"$me"2"$i" |"$cy"            EXIT           "$i"|"$i"    |"$cy" N"$i" |"
 
-if [ $pil = 1 ]
+if [ pil = 1 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
@@ -32,17 +32,17 @@ python2 Report.py
 fi
 
 
-if [ $pil = 2 ]
+if [ pil = 2 ]
 then
 clear
 figlet -f slant "E X I T"|lolcat
 sleep 2
-echo $cy"TOOLS BY MR DJ"
+echo cy"TOOLS BY MR DJ"
 sleep 2
-echo $i"Bila Ada Kesalahan Kamu Bisa Nanya Kepada Saya"
+echo i"Bila Ada Kesalahan Kamu Bisa Nanya Kepada Saya"
 sleep 2
 
 sleep 2
-echo $pur">> FOLLOW US ON YOUTUBE <<"
+echo pur">> FOLLOW US ON YOUTUBE <<"
 exit
 fi
